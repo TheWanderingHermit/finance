@@ -9,6 +9,7 @@ verify_ssl = true
 matplotlib = "*"
 pandas = "*"
 pandas-datareader = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.8"
