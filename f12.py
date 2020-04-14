@@ -20,7 +20,7 @@ def process_data_for_labels( ticker ) :
 
 def buy_sell_hold( *args ) :
     cols = [ c for c in args ]
-    requirements = 0.02
+    requirements = 0.025
     for col in cols :
         if col > requirements :
             return 1
