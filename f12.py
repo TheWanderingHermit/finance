@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 import pickle
 from collections import Counter
+from sklearn import svm, neighbors
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import VotingClassifier, RandomForestClassifier
 
 def process_data_for_labels( ticker ) :
     hm_days = 7
@@ -50,4 +53,19 @@ def extract_featureset( ticker ) :
     Y = df[ '{}_target'.format(ticker) ].values
     return X, Y, df
 
-print( extract_featureset( 'XOM' ) )
+def do_ml( ticker ) :
+    X, Y, df = extract_featureset( ticker )
+    X_train, X_test, Y_train, Y_test = train_test_split( X, Y, test_size = 0.25 )
+    #clf = neighbors.KNeighborsClassifier()
+    clf = VotingClassifier([ ( 'lsvc', svm.LinearSVC() ),
+        ( 'knn', neighbors.KNeighborsClassifier() ), 
+        ( 'rfor', RandomForestClassifier() )])
+    clf.fit( X_train, Y_train )
+    confidence = clf.score( X_test, Y_test )
+    print( 'Accuracy:', confidence )
+    predictions = clf.predict( X_test )
+    print( 'Predicted Spread:', Counter( predictions ) )
+    return confidence
+
+do_ml( 'BAC' )
+

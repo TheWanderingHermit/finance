@@ -10,6 +10,7 @@ matplotlib = "*"
 pandas = "*"
 pandas-datareader = "*"
 numpy = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.8"
