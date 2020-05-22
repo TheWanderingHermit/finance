@@ -1,0 +1,229 @@
+= Introduction to Financial Markets
+Vidya Nathan ( Indian School of Business )
+v1.0
+:icons: font
+:toc:
+:quick-uri: https://www.coursera.org/learn/financial-markets-intro/lecture/RZGpk/0-introduction
+
+notes on modules
+
+== Week 1 - Equity Markets
+
+=== Introduction
+
+[qanda]
+why knowledge about trading in financial markets is necessary?::
+ * gain knowledge on how markets behave to protect against risk
+ * shore up financial security by passive/active investment in the market
+
+=== Equity Market: All you wanted to know
+
+a stock market that facilitates buying and selling of financial instruments ( anything that represents money )
+
+newyork stock exchange came into being as a result of the buttonwood agreement that was signed on may 17th 1792 ( originally called the newyork stock and exchange board )
+
+[qanda]
+how does stock trading work?::
+ broker sends your order to the exchange and, depending on availability, the order gets filled ( your buy or sell is accomplished ) at the best available price
+
+spread = ask - bid
+
+=== Secondary Markets: The basics
+
+secondary market = stock exchange
+most companies are privately owned ( not traded on the exchange )
+
+.stages of funding
+* a startup funded by angle investor ( 100 k - 1 mn investment )
+* a mid size growing company funded by private equity firm ( 1 - 100 mn investment )
+* a reasonably large company needing a hefty investment selling parts of itself. those parts are traded as stocks on stock market
+
+[qanda]
+how do companies release stock ( go public )?::
+ * company goes to the investment banker
+ * investment banker structures an initial public offering ( ipo )
+ * company goes public once the initial public offering is made and its stock is available to be traded on open market
+
+IMPORTANT: investing in ipo carries more risk than investing in stocks of companies that are already public ( since ipo pricing carries a lot of speculation )
+
+=== Market timing and movement: Pattern's emerge
+
+.terminology
+[horizontal]
+business cycle:: the repetition of pattern in growth and shrinking in the business of a company
+bull market:: investors are optimistic about the company/market and tend to invest more in it. bull tends to charge up. 
+bear market:: investors are pessimistic about the market. investors tend to retreat and sell their stock. bear tends to hibernate
+
+philosophy of investment = predict the business cycle
+
+try to anticipate market trends. in timing markets, you need to be correct twice ( once in buying and then in selling )
+
+=== Understanding financial information: A guide
+
+refer to https://www.google.com/finance[google finance] and https://finance.yahoo.com[yahoo finance]
+stock exchanges identify a stock by a unique symbol called ticker
+
+.terminology
+[horizontal]
+annual dividends:: cash payments some companies give back to the shareholders as a way of returning profits to them
+annual dividend yield:: annual dividend amount / current stock price
+earnings per share:: most recent annual income / shares outstanding
+beta ( metric ):: volatility of stock compared to market
++
+.beta
+[width="75%"]
+|===
+|range|inference
+
+|greater than 1 
+|stock moves same as the market
+
+|less than 1 
+|stock fluctuates more quickly than the market
+
+|within ( 0, 1 ]
+|stock fluctuates less as compared to the market
+|===
+
+stock moves in the direction opposite to that of the market
+
+=== Types of orders: A primer
+
+.popular types of orders
+[horizontal]
+market orders:: exec buy or sell immediately at market price. will be quickly executed at best ask/bid price if available 
+limit order:: buy/sell at price no more than/no less than the specified price
+stop loss orders:: buy/sell if the price reaches to a particular point ( to mitigate losses )
+day order:: cancelled if not filled by end of day
+good till cancel:: stay until filled or canceled ( many brokers set an upper time limit )
+fill or kill:: limit orders that are cancelled if not filled immediately
+
+.terminology
+[horizontal]
+buying on margin:: purchase part of your portfolio from the loan borrowed from the broker ( collateral for the loan is the purchased security )
+net value:: value of securities - loan
+margin call:: asked to add cash to account or sell securities at current value
+
+=== Building your portfolio: Start now
+
+risk = uncertainity of investment return
+
+IMPORTANT: diversification is the most reliable way of minimizing risk
+
+blue chip stock = well known low risk stock
+
+TIP: diversify across industries and countries so as to achieve most mitigation in risk
+
+=== Diversification : Never to forget
+
+portfolio = collection of financial instruments owned by an individual
+
+.ways to diversify a portfolio
+[horizontal]
+across stocks:: hold at least 30 different stocks to have a well diversified portfolio
+in different industries:: if one has invested all their holdings in a single industry segment, ones risk is compounded
+across different market caps:: a balanced combination of investments across small cap ( high risk and high return ) and large cap ( low risk but low return ) can also help in mitigating risk
+across dividend yields:: investing across high dividend yield and cash conserving companies( they may conserve cash to fund growth or to shore themselves against risk ) 
+across international and emerging markets:: emerging markets can offer high high growth rate and consequently high yield on your investments
++
+WARNING: investing in international markets carries an inherent risk because one can only impose a limited scrutiny on them
+in commodities:: commodities offer an inherent value which can help mitigate risk
+dollar cost averaging:: don't buy in large lumps. instead build your holding in the same security in small chunks over time so as to mitigate risk from movement of security prices
+
+sharpe ratio = *????*
+
+=== Matching your investments and knowledge : Go with your gut
+
+learn to analyze stocks based on the knowledge you already have
+
+* warren buffet
+** no exotic strategy
+** long term investment based on core valuation of the company
+* peter lynch
+** non exotic simple strategy
+** invest in what you know. use personal life and experience
+** build portfolio of non losers rather than winners
+
+=== Trading rules: For all times - Part 1
+
+* selling is as important as buying
+* don't wait ( hope ) for your losers will jump back
+
+.generally accepted trading rules
+. ride your winners, cut your losers
+. don't fall in love with your stock purchases ( be as apathetic and forgo ego in investments as possible )
+. never ever loose more than 10% on any trade
+. diversify, diversify and diversify
+
+=== Trading rules: For all times - Part 2
+
+. don't fall in love with any particular stock and watch for market tops. withdraw or tighten your stop loss order in this case
+. watch for relation between index values and volumes. if prices are high and volume fades, it means investors are not buying and top may have been reached
+. watch for relation between stock values and volumes. low volume does not tell much but large volume may indicate positive price movements
+. watch volume to price trend for the past 4-5 days. can indicate overall market downturn if there is a downwards trend in this statistic
+. sell into rallies that have decreasing total volume ( downturn ). identifying market tops can be profitable
+. have exit plan and target for every single stock. 
+
+.exit strategy
+* how long do you plan to hold
+* what level of risk do you plan to endure
+* what price do you want to exit at
+* resist temptation to change
+
+== Week 2 - Currency Markets
+
+=== The foreign exchange markets : Overview of basics
+
+* currency = macroeconomic security effected by wider ranging economic and political scenario
+* foreign exchange market ( forex ) is th big daddy of financial markets
+* forex market has the highest volume of transactions compared to any other financial market in the world
+* today, global financial and investment flows dominate trade as the primary non-speculative source of forex market *????*
+* any transaction that crosses currency border boundaries has to be executed through forex market at some point
+* the market operates 6 days a week
+* trades in forex market have lowest market impact compared to any other trades in any other market
+* liquidity refers to the level of market interest, the level of buying and selling volume available at any given moment for a particular asset or security
+
+=== Around the world in a trading day: A round up
+
+* forex markets are active from nyse open on monday to tokyo close on friday
+* this market doesn't close on holidays
+
+=== Foreign Exchange Markets and Other Financial Markets : The complete spectrum
+
+Gold::
+ * hedge against inflation
+ * alternative to uds
+ * storage of value in terms of certainty
+ * over longer term, weaker uds = higher gold price and vice verse
+ * if one is trading in gold, one has to keep an eye on fx market since it is much larger than gold market and movement in affects gold prices rather than the other way round
+
+Oil::
+ * in short run, there is no relation between oil prices and currency values
+ * higher the price of oil, higher is the inflation and slower is the economy
+
+Stocks::
+ * microeconomic securities resulting from individual corporate decisions
+ * little correlation between stock and currency markets
+
+Bounds::
+ * influenced by interest rate expectations
+ * short term correlation are however unintuitive
+
+=== The mechanics of currency trading : Must follow
+
+* fx trade involves simultaneous buying and selling of currency unlink stock trade in which currency is exchanged for stock or vice versa
+* currency exchanges are represented by pairs. e.g. usd to gbp transaction = UDSGBP
+* cross currency pairs = any currency pairs that do not include usd
+* convention says that in a currency cross, the stronger currency is quoted first followed by the weaker currency
+
+.terminology
+[horizontal]
+going long:: when you buy a security
+going short:: when you borrow a security on premium to sell to someone else
+squaring up:: action of closing all positions in the market
+going fx long:: for UDSGBP, one has sold GBP and brought USD and is expecting USD prices to go higher
+going fx short:: for USDGBP, one has sold USD and broguth GBP and is expecting GBP to go higher
+
+=== Profit and Loss : Don't take it personally
+
+
